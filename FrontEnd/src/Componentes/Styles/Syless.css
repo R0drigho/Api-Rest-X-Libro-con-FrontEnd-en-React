@@ -1,0 +1,66 @@
+.app {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+}
+
+header input {
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+.layout {
+    display: flex;
+}
+
+.categoria {
+    width: 17%;
+    height: 20%;
+    padding: 10px;
+    left: 10px;
+    top: 20px;
+    position:relative;
+    border: 1px solid #547e6e;
+}
+
+.categoria ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categoria li {
+    cursor: pointer;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.lista-libros {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.libro {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #547e6e;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.libro img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
